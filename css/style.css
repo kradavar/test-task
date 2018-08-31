@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Sofia Pro Light';
+  src: url('../fonts/sofiapro-light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'StRyde Regular';
+  src: url('../fonts/StRyde-Regular.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'Samo Sans Pro';
+  src: url('../fonts/SamoSansPro.eot');
+  src: url('../fonts/SamoSansPro.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SamoSansPro.woff') format('woff'),
+  url('../fonts/SamoSansPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.line {
+  background-color: #a292b3;
+  height: 8px;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.brand-title {
+  font-size: 2.4375rem;
+  color: #ac9ebb;
+  text-transform: uppercase;
+  font-family: 'Samo Sans Pro';
+}
+
+.menu {
+  font-size: 1.1875rem;
+  color: #ac9ebb;
+  margin: 0 30px;
+}
+
+.menu:last-child {
+  margin-right: 0;
+}
+
+.slide-item {
+  /*background-image: url("../img/bg.png");*/
+  background-repeat: none;
+
+  background: radial-gradient(circle, rgba(0, 0, 200, 0.08) 0px, rgba(0, 0, 0, 0) 2px), url("../img/bg.png") no-repeat;
+  background-size: 6px 6px, auto auto;
+  background-position: 20% 40%;
+  text-align: center;
+  padding: 120px 0 140px 0;
+  width: 1020px;
+  height: 485px;
+}
+
+.center-text-block p {
+  border: 1px solid #bfbfbf;
+  margin: 40px 0;
+  font-size: 1.4375rem;
+  text-align: center;
+  font-style: italic;
+  padding: 20px 82px;
+}
+
+.bold-violet {
+  color: #836a9e;
+  font-weight: bold;
+}
+
+.minto {
+  font-size: 7.3125rem;
+  color: #fff;
+  margin: 0;
+  font-family: "StRyde Regular";
+  text-shadow: -3px 6px 0px rgba(130, 105, 157, 0.75);
+}
+
+.minimal {
+  font-family: "Sofia Pro Light";
+  font-size: 1.9375rem;
+  color: #fff;
+  margin: 0;
+}
+
+.crop {
+  float: left;
+  overflow: hidden;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 0, 200, 0.08) 0px, rgba(0, 0, 0, 0) 2px), url("../img/bg.png") no-repeat;
+  background-size: 6px 6px, auto auto;
+  background-position: 25% 68%;
+  height: 272px;
+  width: 272px;
+  box-shadow: 0 0 30px #d6d7d7;
+}
+
+.read-more {
+  text-align: right;
+  color: #000;
+  font-style: italic;
+}
+
+.client {
+  background-color: #f5f5f5;
+  border: 1px solid #dedede;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  margin: 42px 0 62px 0;
+}
+
+.brand {
+  text-align: center;
+  font-size: 2rem;
+  color: #82699d;
+}
+
+.footer {
+  background: #e8e8e8;
+  padding: 27px 0 21px 0;
+}
+
+.text {
+  line-height: 48px;
+  font-size: 0.9375rem;
+  font-family: "Segoe UI Light";
+}
+
+.featured {
+  font-size: 1.4375rem;
+  margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.col-8 h3 {
+  font-size: 1.9375rem;
+}
+
+.col-8 p {
+  font-size: 0.9375rem;
+}
